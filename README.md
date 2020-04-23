@@ -116,6 +116,12 @@ if they are present in `README.md`.
           - 'args=--enable-rule=terraform_documented_variables'
     ```
 
+## Notes about terraform_tfsec hooks
+
+1. `terraform_tfsec` will scan all directories recursively. To ignore specific warnings, follow the convention from the 
+[documentation](https://github.com/liamg/tfsec#ignoring-warnings).
+
+
 ## Notes for developers
 
 1. Python hooks are supported now too. All you have to do is:

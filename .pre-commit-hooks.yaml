@@ -63,4 +63,4 @@
   description: Validates all Terraform configuration files with TFSec.
   entry: terraform_tfsec.sh
   language: script
-  exclude_types: directory
+  
