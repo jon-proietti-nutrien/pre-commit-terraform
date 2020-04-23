@@ -23,11 +23,11 @@ main() {
         ;;
     esac
   done
-
-  tflsec_ "$args" "$files"
+  echo "$args" "$files"
+  tfsec_ "$args" "$files"
 }
 
-tflsec_() {
+tfsec_() {
   for file_with_path in $files; do
     file_with_path="${file_with_path// /__REPLACED__SPACE__}"
 
