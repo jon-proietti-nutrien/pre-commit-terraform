@@ -57,3 +57,11 @@
   language: script
   files: (\.hcl)$
   exclude: \.terraform\/.*$
+
+- id: terraform_tfsec
+  name: Terraform validate with tfsec
+  description: Validates all Terraform configuration files with TFSec.
+  entry: terraform_tfsec.sh
+  language: script
+  files: (\.tf|\.tfvars)$
+  exclude: \.terraform\/.*$
