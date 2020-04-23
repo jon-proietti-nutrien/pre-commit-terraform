@@ -60,7 +60,6 @@
 
 - id: terraform_tfsec
   name: Terraform validate with tfsec
-  description: Validates all Terraform configuration files with TFSec.
+  description: Static analysis of your Terraform templates to spot potential security issues.
   entry: terraform_tfsec.sh
   language: script
-  
